@@ -148,7 +148,7 @@ matérielle (le squelette envoie des zéros pour vérifier la connexion au backe
 Ce guide explique comment brancher `sensor_reader.py` sur un **vrai robot** qui publie
 déjà ses topics ROS sur le réseau — par opposition au test en local avec `file.bag`.
 
-## Différence clé avec le test en local
+### Différence clé avec le test en local
 
 Quand on teste avec `file.bag`, **on** lançait `roscore` (le master ROS) dans un
 conteneur Docker, en plus de `sensor_reader.py` et `rosbag play`.
